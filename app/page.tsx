@@ -15,8 +15,8 @@ export default async function Home() {
           {
             todos?.map((todo: Todo) => {
               return (
-                <div className='w-full'>
-                  <TodoItem key={todo.id} todo={todo}/>
+                <div className='w-full' key={todo.id}>
+                  <TodoItem todo={todo}/>
                 </div>
               )
             })
