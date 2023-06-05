@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #223843;
+    color: #fff;
+}
+
+@layer components{
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .btn{
+        background-color: #151d21;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: 500;
+    }
+
+    .input{
+        padding: 10px;
+        border-radius: 10px;
+        color: #000;
+    }
+}
