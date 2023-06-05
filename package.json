@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild":"pnpm dlx prisma generate",
+    "postinstall":"pnpm dlx prisma generate",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
